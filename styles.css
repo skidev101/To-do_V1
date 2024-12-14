@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    background: #f1f1f1;
+}
+.container{
+    margin-top: 1.5em;
+}
+details{
+    width: max-content;
+    position: relative;
+}
+summary{
+    list-style-type: none;
+    border-radius: 50px;
+}
+summary i{
+    font-size: 1.4em;
+    transition: 0.2 ease-out;
+}
+summary i:hover{
+    color: #444444;
+}
+.count{
+    display: block;
+}
+details .menu{
+    background: #f0f2fb;
+    position: absolute;
+    list-style-type: none;
+    right: 100%;
+    width: max-content;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+details .menu li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7px;
+    border-radius: 12px;
+    transition: 0.3s ease-out;
+}
+details .menu li:hover{
+    background: oldlace;
+}
+details .menu li i{
+    padding: 0 7px 0 0;
+}
+
+.task-zone{
+    padding: 10px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputf{
+    width: 100%;
+    min-height: 5em;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    background: #f0f2fb;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.inputf textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.14em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    padding: 0 5px;
+    border-radius: 3px;
+    background: transparent;
+}
+.task-zone .create{
+    width: 30%;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    background: #000;
+    margin: 7px 0 15px 0;
+}
+.line{
+    width: 95%;
+    height: 0.8px;
+    background: #000;
+    opacity: 0.2;
+}
+.task-box{
+    width: 100%;
+    height: max-content;
+    min-height: 8em;
+    background: #f1f1f1;
+    padding: 1em 0;
+    margin: 2.5em 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    padding: 0 14px;
+}
+ul .doing,
+ul .complete{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 3em;
+    background: #f0f2fb;
+    margin-top: 1.3em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    list-style-type: none;
+    position: relative;
+}
+.task{
+    width: 80%;
+    height: 100%;
+}
+.task:focus{
+    outline: 1px solid #212121;
+}
+.ctask{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.ctask input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.list i{
+    padding: 0 5px;
+    font-size: 1.2em;
+}
+.list .deletei{
+    position: absolute;
+    right: 5px;
+}
+.list .complete .completei{
+    color: green;
+}
+.list .complete .deletei{
+    color: #e21c00e5;
+}
+.list{
+    width: 100%;
+}
+.list div.complete{
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
