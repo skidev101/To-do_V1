@@ -88,6 +88,7 @@ details .menu li i{
 }
 .task-zone .create{
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 30%;
     height: 2.5em;
@@ -97,6 +98,9 @@ details .menu li i{
     font-weight: 500;
     background: #000;
     margin: 7px 0 15px 0;
+}
+.create i{
+    padding: 0 7px;
 }
 .line{
     width: 95%;
