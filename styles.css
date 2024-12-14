@@ -87,6 +87,8 @@ details .menu li i{
     background: transparent;
 }
 .task-zone .create{
+    display: flex;
+    align-items: center;
     width: 30%;
     height: 2.5em;
     border: none;

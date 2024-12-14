@@ -8,12 +8,7 @@ document.querySelector('body');
 let taskZone = 
 document.getElementById('task-box')
 
-let listTask = [
-  { 
-    content: '',
-    status: '' 
-  }
-];
+let listTask = [];
 
 let taskCount = listTask.length;
 
